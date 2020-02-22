@@ -1,0 +1,32 @@
+{
+  "name": "typescript-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon build/index.js",
+    "server": "tsc -w",
+    "clean": "rimraf build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/fs-extra": "^8.1.0",
+    "@types/mongoose": "^5.7.1",
+    "@types/morgan": "^1.7.37",
+    "@types/multer": "^1.4.2",
+    "nodemon": "^2.0.2"
+  }
+}
